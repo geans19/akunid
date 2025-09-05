@@ -6,19 +6,19 @@
 # 5. UUID
 
 # ===============[ nama worker ]=================
-name = "mvnet"
+name = "sgdo"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
 
 # ===============[ account id ]==================
-account_id = "487b5e794560518a4a9880cfafa1dd22"
+account_id = "e2070ef3d61ee22ab9447f8708f09b65"
 workers_dev = true
 
 # ===============[ KV STORAGE ]==================
 [[kv_namespaces]]
 binding = "AIO"
-id = "4b2249c348ac45b5a3b83ac83f5a8ddd"
+id = "2b60d74531234bb7bbb477751e207481"
 
 [build]
 command = "cargo install worker-build && worker-build --release"
@@ -28,8 +28,8 @@ build = { command = "cargo install worker-build && worker-build --dev" }
 
 # =================[ UUID V4 ]===================
 [vars]
-UUID = "eed08a6d-de33-4d89-bbfc-ed24fb5f07b3"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/invesibletint/mvnet/refs/heads/main/web/index.html"
-SUB_PAGE_URL = "https://raw.githubusercontent.com/invesibletint/mvnet/refs/heads/main/web/sub.html"
+UUID = "fe136aa9-ac95-4cf0-90b0-e542328d463b"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/iqbal-19/mvnet/refs/heads/main/web/index.html"
+SUB_PAGE_URL = "https://raw.githubusercontent.com/iqbal-19/mvnet/refs/heads/main/web/sub.html"
 
 # ------- Dimodifikasi oleh: @technic -------
