@@ -6,19 +6,19 @@
 # 5. UUID
 
 # ===============[ nama worker ]=================
-name = "sgdo"
+name = "idakamai"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
 
 # ===============[ account id ]==================
-account_id = "e2070ef3d61ee22ab9447f8708f09b65"
+account_id = "5de23fc3efe0fbef651609be4170cfbb"
 workers_dev = true
 
 # ===============[ KV STORAGE ]==================
 [[kv_namespaces]]
 binding = "AIO"
-id = "2b60d74531234bb7bbb477751e207481"
+id = "1601e8302a8d4e73a77931083d4c4361"
 
 [build]
 command = "cargo install worker-build && worker-build --release"
@@ -28,8 +28,8 @@ build = { command = "cargo install worker-build && worker-build --dev" }
 
 # =================[ UUID V4 ]===================
 [vars]
-UUID = "fe136aa9-ac95-4cf0-90b0-e542328d463b"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/iqbal-19/mvnet/refs/heads/main/web/index.html"
-SUB_PAGE_URL = "https://raw.githubusercontent.com/iqbal-19/mvnet/refs/heads/main/web/sub.html"
+UUID = "bde72a0d-d017-480f-a5c2-2fcffb5c199a"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/geans19/akunid/refs/heads/main/web/index.html"
+SUB_PAGE_URL = "https://raw.githubusercontent.com/geans19/akunid/refs/heads/main/web/sub.html"
 
 # ------- Dimodifikasi oleh: @technic -------
